@@ -20,5 +20,10 @@ if __name__ == '__main__':
     chances = len(word) + 2
     correct = 0
     flag = 0
+    try:
+        while (chances != 0) and flag == 0:  
+            print()
+            chances -= 1
+
 
 print(word)
