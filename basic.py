@@ -15,4 +15,10 @@ if __name__ == '__main__':
         print('_', end=' ')
     print()
 
+    playing = True
+    letterGuessed = ''
+    chances = len(word) + 2
+    correct = 0
+    flag = 0
+
 print(word)
