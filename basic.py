@@ -30,6 +30,16 @@ if __name__ == '__main__':
             except:
                 print('Enter only a letter!')
                 continue
+
+            if not guess.isalpha():
+                print('Enter only a LETTER')
+                continue
+            elif len(guess) > 1:
+                print('Enter only a SINGLE letter')
+                continue
+            elif guess in letterGuessed:
+                print('You have already guessed that letter')
+                continue
       
                 
 
