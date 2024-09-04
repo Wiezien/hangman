@@ -47,9 +47,12 @@ if __name__ == '__main__':
             for char in word:
                 if char in letterGuessed and (Counter(letterGuessed) != Counter(word)):
                     print(char, end=' ')
-                    correct += 1        
+                    correct += 1  
+                elif (Counter(letterGuessed) == Counter(word)):
+                    print("The word is: ", end=' ')
+  
       
-                
+             
 
 
 print(word)
