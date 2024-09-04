@@ -40,6 +40,8 @@ if __name__ == '__main__':
             elif guess in letterGuessed:
                 print('You have already guessed that letter')
                 continue
+            if guess in word:
+                k = word.count(guess)
       
                 
 
