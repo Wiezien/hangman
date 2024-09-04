@@ -44,6 +44,10 @@ if __name__ == '__main__':
                 k = word.count(guess)
                 for _ in range(k):
                     letterGuessed += guess 
+            for char in word:
+                if char in letterGuessed and (Counter(letterGuessed) != Counter(word)):
+                    print(char, end=' ')
+                    correct += 1        
       
                 
 
