@@ -55,6 +55,8 @@ if __name__ == '__main__':
                     print('Congratulations, You won!')
                     break  
                     break  
+                else:
+                    print('_', end=' ')
 
   
       
