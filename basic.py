@@ -63,6 +63,11 @@ if __name__ == '__main__':
             print('You lost! Try again..')
             print('The word was {}'.format(word))
 
+    except KeyboardInterrupt:
+        print()
+        print('Bye! Try again.')
+        exit()
+
   
       
              
